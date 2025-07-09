@@ -1,0 +1,100 @@
+\subsection{Comprendre l’Industrie 4.0}
+
+\subsubsection{Origines et évolution des révolutions industrielles}
+
+L’histoire de l’industrie est marquée par plusieurs révolutions successives, chacune fondée sur une rupture technologique majeure et entraînant des transformations profondes dans la production, l’organisation du travail et l’économie mondiale \cite{bib:hermann2016}.
+
+\begin{itemize}
+    \item \textbf{Industrie 1.0} (fin XVIII\textsuperscript{e} – début XIX\textsuperscript{e} siècle) : l’introduction de la machine à vapeur et la mécanisation ont permis de passer d’une production artisanale à une production mécanisée, notamment dans le textile et la métallurgie.
+    \item \textbf{Industrie 2.0} (fin XIX\textsuperscript{e} – début XX\textsuperscript{e}) : l’électrification, l’apparition de la chaîne de montage et l’organisation scientifique du travail ont permis une production de masse.
+    \item \textbf{Industrie 3.0} (années 1970–2000) : l’automatisation, l’électronique, les automates programmables (API) et l’informatique industrielle ont permis de contrôler plus finement les processus et d’optimiser les rendements.
+    \item \textbf{Industrie 4.0} (années 2010–…) : elle repose sur la convergence entre technologies physiques et numériques : objets connectés, intelligence artificielle, données massives, interopérabilité des systèmes. Elle vise une production intelligente, réactive et auto-apprenante \cite{bib:industrieavenir}.
+\end{itemize}
+
+Le terme "Industrie 4.0" a été introduit en Allemagne en 2011 lors du salon de Hanovre, dans le cadre de la stratégie gouvernementale “High-Tech Strategy 2020”. Depuis, le concept s’est diffusé à l’échelle mondiale, intégrant aussi bien des enjeux technologiques que politiques, économiques et sociaux \cite{bib:hermann2016}.
+
+\subsubsection{Définition globale et cadre conceptuel}
+
+L’Industrie 4.0 désigne un nouveau paradigme de production industrielle dans lequel les systèmes de fabrication, les infrastructures, les produits et les humains sont interconnectés via des réseaux intelligents, et communiquent en temps réel pour ajuster automatiquement les décisions, optimiser les flux et prévenir les anomalies \cite{bib:gobert2018}.
+
+\begin{quote}
+\textit{« L’industrie 4.0 repose sur l’intégration cyber-physique des processus industriels pour favoriser une production autonome, flexible, personnalisée, efficace et connectée. »}
+\end{quote}
+
+Elle s’appuie sur quatre principes fondamentaux :
+\begin{itemize}
+    \item \textbf{Interconnexion} : des machines, systèmes, et personnes via l’Internet des objets industriels (IIoT).
+    \item \textbf{Transparence de l’information} : la capacité à collecter et modéliser les données pour décrire numériquement l’état des opérations.
+    \item \textbf{Assistance décentralisée} : les systèmes aident les opérateurs à prendre des décisions informées, ou prennent des décisions eux-mêmes.
+    \item \textbf{Décision autonome} : les systèmes peuvent ajuster ou déclencher des actions sans intervention humaine.
+\end{itemize}
+
+\subsubsection{Comparaison Industrie 3.0 vs Industrie 4.0}
+
+Cette transition a été largement étudiée et synthétisée dans de nombreuses analyses stratégiques et rapports industriels \cite{bib:gobert2018, bib:industrieavenir}.
+
+\begin{table}[H]
+\centering
+\renewcommand{\arraystretch}{1.4}
+\begin{tabular}{|p{4cm}|p{5cm}|p{5cm}|}
+\hline
+\textbf{Aspect} & \textbf{Industrie 3.0} & \textbf{Industrie 4.0} \\
+\hline
+\textbf{Automatisation} & Programmation rigide & Automatisation intelligente, adaptative \\
+\hline
+\textbf{Communication} & Locale, verticale & Réseaux interconnectés, communication en temps réel \\
+\hline
+\textbf{Systèmes d'information} & ERP cloisonnés et centralisés & SI distribués, interopérables, orientés données \\
+\hline
+\textbf{Exploitation des données} & Suivi et contrôle & Prédiction, optimisation, apprentissage automatique \\
+\hline
+\textbf{Flexibilité} & Faible & Élevée (personnalisation de masse, production à la demande) \\
+\hline
+\textbf{Rôle humain} & Superviseur de systèmes automatisés & Décideur assisté par IA, collaborateur augmenté \\
+\hline
+\end{tabular}
+\caption{Comparaison entre l'industrie 3.0 et l'industrie 4.0}
+\end{table}
+
+\subsubsection{Perspectives européennes et françaises}
+
+En Europe et en France, plusieurs initiatives politiques ont structuré cette vision. Parmi elles, le programme “Industrie du Futur” porté par l’Alliance Industrie du Futur (AIF) a joué un rôle moteur dans l’accompagnement des PME industrielles vers cette transformation \cite{bib:industrieavenir}.
+
+Les leviers prioritaires identifiés sont :
+\begin{itemize}
+    \item le soutien à la numérisation des PME et ETI industrielles,
+    \item la montée en compétence des salariés dans le numérique,
+    \item la mutualisation des efforts autour de plateformes technologiques (Usine du Futur, FabLabs, etc.),
+    \item l’émergence de standards industriels ouverts et européens.
+\end{itemize}
+
+Ces politiques montrent que l’industrie 4.0 est perçue comme un pilier stratégique pour renforcer la résilience et la souveraineté technologique de l’industrie française.
+
+
+
+
+\subsection{Contexte chez Jeumont Electric}
+
+Chez Jeumont Electric, la digitalisation n’est pas un objectif abstrait. Elle répond à des besoins concrets identifiés par les équipes de production, de maintenance et de gestion technique sur le site de Carquefou.
+
+Avant la mission, plusieurs processus critiques étaient gérés via :
+
+\begin{itemize}
+    \item des fichiers Excel stockés localement,
+    \item des rapports papier scannés puis archivés,
+    \item des échanges informels (e-mail, discussions orales),
+    \item des outils vieillissants développés en interne il y a plusieurs années.
+\end{itemize}
+
+Cette situation générait :
+
+\begin{itemize}
+    \item une perte de temps liée à la recherche d’information,
+    \item une traçabilité partielle des opérations réalisées,
+    \item une surcharge administrative pour les techniciens,
+    \item un manque de visibilité en temps réel pour les chefs de projet.
+\end{itemize}
+
+Consciente de ces limites, l’entreprise a souhaité entamer une transformation ciblée, en commençant par les processus jugés prioritaires. Le développement d’applications web sur mesure a donc été choisi comme levier d’action principal, car il permettait d’implémenter des solutions simples, évolutives, et alignées sur les réalités métier du site.
+
+

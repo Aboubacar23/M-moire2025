@@ -1,0 +1,113 @@
+
+\subsubsection{Modules fonctionnels par couche}
+
+L’architecture logicielle des trois applications repose sur une organisation modulaire typique des projets Symfony. Chaque couche du projet est structurée pour répondre à une fonction bien précise, en séparant la logique métier, la gestion des vues et la configuration applicative. Cette organisation facilite le développement, les tests, la maintenance et l’évolution future des applications.
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|p{2.5cm}|p{5cm}|p{8cm}|}
+\hline
+\textbf{Couche} & \textbf{Répertoires Symfony} & \textbf{Rôle et responsabilités} \\
+\hline
+Backend &
+\begin{itemize}
+    \item src/Controller/
+    \item src/Entity/
+    \item src/Form/
+\end{itemize}
+&
+\begin{itemize}
+    \item Contrôleurs : logique métier, gestion des routes et traitement des actions utilisateurs.
+    \item Entités : définition des objets métier (Expertise, Barre, Dépense, etc.) et mappage vers la base de données via Doctrine ORM.
+    \item Formulaires : création de formulaires sécurisés pour la saisie de données métiers.
+\end{itemize}
+\\
+\hline
+Frontend &
+templates/ &
+\begin{itemize}
+    \item Vues Twig : affichage des interfaces utilisateur (formulaires, listes, tableaux de bord).
+    \item HTML dynamique avec intégration de Bootstrap/Tailwind pour le style.
+\end{itemize}
+\\
+\hline
+Base de données &
+migrations/ &
+\begin{itemize}
+    \item Scripts de migration pour la création et l’évolution du schéma MySQL.
+    \item Versionnement des structures de tables via Doctrine Migrations.
+\end{itemize}
+\\
+\hline
+Configuration &
+config/ &
+\begin{itemize}
+    \item Fichiers de configuration de l’application : sécurité, routes, services, bundles.
+    \item Paramétrage global des environnements (dev, prod, test).
+\end{itemize}
+\\
+\hline
+\end{tabular}
+\caption{Organisation des modules fonctionnels dans le projet Symfony}
+\label{tab:modules_fonctionnels}
+\end{table}
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+\subsubsection{Outils de gestion de projet utilisés}
+
+Afin d’assurer une coordination efficace du projet, plusieurs outils numériques ont été mobilisés pour répondre aux besoins de planification, de suivi, de documentation et de versionnage. Chacun de ces outils a joué un rôle complémentaire dans l'organisation du travail et la structuration des livrables :
+
+\begin{itemize}
+    \item \textbf{GitHub} : plateforme de gestion de version utilisée pour l’hébergement du code, le suivi des modifications via des commits, la gestion des branches de développement, ainsi que la documentation des bugs et des demandes de fonctionnalités via les \textit{issues}. GitHub a permis un développement structuré, itératif et traçable.
+
+    \item \textbf{Trello} : outil de gestion visuelle des tâches selon une approche kanban. Chaque carte représentait une fonctionnalité, un correctif ou un lot à développer. L’utilisation des colonnes, étiquettes et checklists a facilité le suivi des priorités, des dépendances et de l’avancement de manière collaborative et flexible.
+    
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{../Images/trello.png}
+    \caption{Extrait trello du projet Base Expertise.}
+\end{figure}
+   \vspace{0.5em}
+    \begin{flushleft}
+    \textbf{Légende des couleurs du diagramme :}
+	\begin{itemize}[label=--]
+    		\item \textbf{Backlog} : tâches recensées mais non encore planifiées.
+    		\item \textbf{À faire} : tâches prévues à court terme.
+    		\item \textbf{En cours} : tâches en cours de traitement.
+    		\item \textbf{En attente} : tâches bloquées ou dépendantes d'autres actions.
+    		\item \textbf{Terminé} : tâches finalisées.
+    		\item \textbf{Bloqué} : tâches en impasse nécessitant une action extérieure.
+	\end{itemize}
+    \end{flushleft}
+
+
+    \item \textbf{GanttProject} : logiciel utilisé pour établir une planification globale du projet à l’échelle macro. Les diagrammes de Gantt ont permis de visualiser la chronologie des phases, les dépendances entre les tâches clés, et les jalons de livraison, tout en assurant une cohérence temporelle avec les objectifs de l’alternance.
+    
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{../Images/diagramme de gant.png}
+    \caption{Extrait du planning global de la mission réalisé avec GanttProject.}
+\end{figure}
+
+   \vspace{0.5em}
+    \begin{flushleft}
+    \textbf{Légende des couleurs du diagramme :}
+    \begin{itemize}
+        \item \textcolor[HTML]{C6EFCE}{\textbf{Vert pâle}} : Vacances, Congés
+        \item \textcolor[HTML]{FF0000}{\textbf{Rouge}} : Congé ou vacances (ex. été)
+        \item \textcolor[HTML]{002060}{\textbf{Bleu foncé / Indigo}} : Formation
+        \item \textcolor[HTML]{DAE8FC}{\textbf{Bleu clair}} : Jours fériés
+    \end{itemize}
+    \end{flushleft}
+	
+\smallskip
+\begin{center}
+    \small\textit{Ce diagramme présente les principales phases du projet, avec leurs dates de début et de fin, ainsi que les relations de dépendance entre les différentes tâches. Les couleurs permettent de distinguer les sous-projets ou domaines fonctionnels.}
+\end{center}
+	
+\end{itemize}
+
+
+
+
