@@ -1,4 +1,4 @@
-\documentclass[11pt,a4paper]{article}
+	\documentclass[11pt,a4paper]{article}
 \usepackage[a4paper, left=2.5cm, right=2.5cm, top=2.5cm, bottom=2.5cm]{geometry}
 \usepackage{setspace}
 \setstretch{1.15}  % Interligne 1.15
@@ -17,6 +17,7 @@
 \usepackage{titling} % Nécessaire pour \subtitle
 %\usepackage{amssymb}
 \usepackage{enumitem} % à placer dans le préambule
+\usepackage{pdflscape}  % dans le préambule
 
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
@@ -42,7 +43,8 @@
 
 \begin{center}
     \LARGE \textbf{Mémoire de fin d'études}\\[1em]
-    \Large Mastère 2\textsuperscript{ème} année\\[1em]
+    %\Large Mastère 2\textsuperscript{ème} année\\[1em]
+    \Large Mastère Expert en Systèmes d’Information\\[1em]
     \Large Spécialisation : Développement Full-Stack \\[3em]
 
    % \huge \textbf{Conception et développement d’applications web sur mesure pour la digitalisation des processus industriels chez Jeumont Electric}\\[2em]
@@ -156,7 +158,7 @@ Ce document est aussi l’aboutissement d’un accompagnement bienveillant, de l
 \listoftables
 
 \newpage
-\section*{Introduction générale}
+\section*{Introduction}
 \addcontentsline{toc}{section}{Introduction générale}
 
 La transformation entrée numérique transforme en véritable profondeur le fonctionnement des entreprises industrielles. Ce mouvement, généralement appelé industrie 4.0, repose sur un usage croissant des technologies de l’information utilisé dans les processus de production, de maintenance, de pilotage etc. Dans un environnement de plus en plus concurrentiel, les entreprises doivent composer avec des exigences de qualité, de traçabilité, de réactivité et d’optimisation des ressources de plus en plus élevées. 
@@ -229,11 +231,9 @@ Grâce à ses compétences reconnues et à ses technologies propriétaires, Jeum
 accompagne ses partenaires industriels dans leurs projets de construction neuve, d'extension de
 parc, de maintien en conditions opérationnelles ou d'amélioration de la performance énergétique.
 
-\subsection{Le site de Carquefou : un centre stratégique}
+\subsection{Le site de Carquefou}
 
-Situé près de Nantes, le site de Carquefou est un des pôles clés de l’entreprise. Il concentre les activités liées à la maintenance lourde, aux expertises techniques (électriques et mécaniques), et à la rénovation des équipements tournants.
-
-Ce site est particulièrement reconnu pour :
+Situé près de Nantes, le site de Carquefou est un des pôles clés de l’entreprise. Il concentre les activités liées à la maintenance lourde, aux expertises techniques (électriques et mécaniques), et à la rénovation des équipements tournants. Ce site est particulièrement reconnu pour :
 \begin{itemize}
     \item son savoir-faire dans la réparation de stators et rotors ;
     \item sa capacité à gérer des projets de maintenance de grande envergure ;
@@ -435,7 +435,7 @@ Ces limites conduisent de plus en plus d’entreprises industrielles à dévelop
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{../Images/app-si.png}
+    \includegraphics[width=0.5\textwidth]{../Images/app-si.png}
     \caption{Schéma Applications industriels}
 \end{figure}
 
@@ -471,7 +471,7 @@ Chaque entreprise industrielle possède une organisation unique, avec ses flux d
 
 En ce sens, les applications web sur mesure agissent comme des connecteurs intelligents entre le terrain et les systèmes de pilotage stratégique. Elles assurent la continuité numérique entre les opérateurs et les décideurs : en structurant la donnée au moment de sa saisie, elles facilitent son exploitation a posteriori que ce soit pour des audits,la mesure et l'analyse de la performance, ou encore la prise de décision en temps réel.
 \\
-Plus encore, elles illustrhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhent un modèle de numérisation à échelle humaine, où c’est l’outil qui s’adapte à l’utilisateur au lieu de l’inverse. Principe de co-construction et clé du succès des projets de transformation numérique à l’échelle industrielle.
+Plus encore, elles illustrent un modèle de numérisation à échelle humaine, où c’est l’outil qui s’adapte à l’utilisateur au lieu de l’inverse. Principe de co-construction et clé du succès des projets de transformation numérique à l’échelle industrielle.
 
 
 \begin{figure}[H]
@@ -480,7 +480,6 @@ Plus encore, elles illustrhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
     \caption{Schéma comparatif}
 \end{figure}
 
-\newpage
 \subsection{Limites des outils traditionnels dans l’industrie}
 
 En dépit de la rapide évolution technologique du numérique, un très grand nombre d’entreprises industrielles en particulier des PME et ETI continuent à utiliser tous les jours des outils bureautiques généralistes tels que Microsoft Excel, Word ou Access ou tout simplement des documents papier pour gérer des processus critiques. Ces pratiques émergent parfois d’une tradition bien ancrée, d’un pragmatisme organisationnel ou encore d’un manque de temps ou de moyens pour réaliser une transformation plus ambitieuse.
@@ -545,8 +544,8 @@ Avec les outils classiques, la remontée des informations est lente, parfois heb
 Les techniciens, chefs d’équipe ou responsables doivent souvent jongler entre plusieurs fichiers, dossiers partagés, impressions papier, et mails informels. Cela génère :
 
 \begin{itemize}
-    \item une surcharge administrative inutile ;
-    \item un éloignement de leur cœur de métier (diagnostic, fabrication, intervention) ;
+    \item une surcharge administrative inutile,
+    \item un éloignement de leur cœur de métier (diagnostic, fabrication, intervention),
     \item un rejet progressif des outils numériques, perçus comme lourds et mal conçus.
 \end{itemize}
 
@@ -564,9 +563,9 @@ Chez Jeumont Electric, plus particulièrement sur le site de Carquefou, la trans
 Avant le démarrage de la mission, les processus métiers de plusieurs services clés notamment la maintenance, l’expertise technique et la production reposaient sur des outils de gestion anciennes. Il s’agissait principalement de :
 
 \begin{itemize}
-    \item fichiers Excel utilisés comme bases de suivi ou de calcul, souvent stockés localement sur les postes de travail ou partagés via les serveurs internes ;
-    \item rapports papier renseignés manuellement en atelier, puis scannés et stockés sans classification systématique ;
-    \item e-mails et discussions orales pour transmettre des consignes ou des informations techniques ;
+    \item fichiers Excel utilisés comme bases de suivi ou de calcul, souvent stockés localement sur les postes de travail ou partagés via les serveurs internes,
+    \item rapports papier renseignés manuellement en atelier, puis scannés et stockés sans classification systématique,
+    \item e-mails et discussions orales pour transmettre des consignes ou des informations techniques,
     \item anciens outils internes développés il y a plusieurs années avec des technologies désormais obsolètes.
 \end{itemize}
 
@@ -578,10 +577,10 @@ Ces pratiques, héritées d’une organisation historique orientée terrain plus
 Les équipes faisaient régulièrement état de difficultés rencontrées au quotidien, notamment :
 
 \begin{itemize}
-    \item une perte de temps importante dans la recherche d’informations techniques ou budgétaires ;
-    \item une traçabilité ou suivi incomplète ou incohérente des opérations réalisées ;
-    \item une surcharge administrative pour les techniciens et opérateurs ;
-    \item un manque de visibilité en temps réel pour les chefs de projet ;
+    \item une perte de temps importante dans la recherche d’informations techniques ou budgétaires,
+    \item une traçabilité ou suivi incomplète ou incohérente des opérations réalisées,
+    \item une surcharge administrative pour les techniciens et opérateurs,
+    \item un manque de visibilité en temps réel pour les chefs de projet,
     \item une hétérogénéité des pratiques d’un service à l’autre, générant des écarts de qualité.
 \end{itemize}
 
@@ -589,10 +588,7 @@ Ces contraintes impactaient directement la qualité du travail, la réactivité 
 
 \item \textbf{Un besoin d’outils plus adaptés aux réalités métier}
 
-Face à ces constats récurrents, la direction du site de Carquefou a initié une réflexion sur la modernisation des outils internes. Plutôt que d’adopter un progiciel lourd ou un ERP global, l’entreprise a fait le choix stratégique de développer des \textbf{applications web sur mesure}.
-
-\newpage
-Ce choix repose sur plusieurs critères :
+Face à ces constats récurrents, la direction du site de Carquefou a initié une réflexion sur la modernisation des outils internes. Plutôt que d’adopter un progiciel lourd ou un ERP global, l’entreprise a fait le choix stratégique de développer des \textbf{applications web sur mesure}. Ce choix repose sur plusieurs critères :
 
 \begin{itemize}
     \item souplesse des technologies web pour adapter les interfaces aux contraintes métier ;
@@ -978,7 +974,6 @@ Cette démarche s’est articulée autour de plusieurs leviers complémentaires 
 
 \noindent Cette approche de cadrage progressif, fondée sur la proximité avec les utilisateurs et l’ajustement en continu, a permis de concevoir une solution réellement adaptée au contexte métier, tout en favorisant l’appropriation rapide par les équipes.
 
-\newpage
 \subsubsection{Structuration du travail}
 
 Afin d’assurer une progression fluide et maîtrisée du projet, la mission a été découpée en cinq grandes étapes, chacune correspondant à une phase clé du cycle de développement. Cette structuration temporelle et méthodologique a permis de garantir la cohérence globale tout en laissant de la place à l’itération et à l’ajustement.
@@ -1008,7 +1003,7 @@ L’organisation du temps sur les deux années d’alternance s’est articulée
 
 Cette répartition du temps a permis de structurer une alternance à la fois exigeante et formatrice, avec un fort ancrage terrain et une continuité pédagogique adaptée au rythme industriel.
 \\
-
+\newpage
 \paragraph{Structuration en Entreprise}
 
 \begin{enumerate}
@@ -1303,6 +1298,7 @@ Toutes les requêtes critiques sont protégées contre les attaques classiques (
 
 Cette architecture permet aujourd’hui à l’ensemble des services concernés de disposer d’outils numériques fiables, accessibles, et sécurisés, tout en restant compatibles avec les contraintes techniques du site industriel de Carquefou.
 
+\newpage
 \paragraph{Schéma d’architecture générale}
 
 Le schéma ci-dessous présente l’organisation fonctionnelle globale des applications développées dans le cadre de cette mission. Il illustre les composants principaux, leurs interactions, ainsi que la circulation des données entre le client, le serveur et la base de données.
@@ -1519,9 +1515,10 @@ L’approche Scrum, bien que simplifiée dans le contexte d’une alternance ind
 
 \subsubsection{Parcours utilisateur}
 
-Pour assurer l’adoption rapide et efficace des applications, une attention particulière a été portée à la définition de parcours utilisateur clairs, logiques et adaptés aux usages métiers. Chaque application a été conçue selon une logique de navigation intuitive, afin de permettre aux utilisateurs — qu’ils soient techniciens, superviseurs ou responsables — de réaliser leurs tâches avec un minimum de clics, de ressaisies et de formation.
+Pour assurer l’adoption rapide et efficace des applications, une attention particulière a été portée à la définition de parcours utilisateur clairs, logiques et adaptés aux usages métiers. Chaque application a été conçue selon une logique de navigation intuitive, afin de permettre aux utilisateurs qu’ils soient techniciens, superviseurs ou responsables de réaliser leurs tâches avec un minimum de clics, de ressaisies et de formation.
+\begin{enumerate}
 
-\paragraph*{Base d’expertise} \
+\item \textbf{Base d’expertise} 
 
 Le parcours utilisateur type commence par la création d’une fiche d’expertise dès la réception d’un équipement. L’utilisateur peut ensuite, selon son rôle :
 \begin{enumerate}
@@ -1533,7 +1530,7 @@ Le parcours utilisateur type commence par la création d’une fiche d’experti
 \end{enumerate}
 Chaque utilisateur accède uniquement aux étapes pour lesquelles il est habilité (saisie, validation, consultation), assurant à la fois sécurité et fluidité du processus.
 
-\paragraph*{TraQbar (traçabilité des barres)} \
+\item \textbf{TraQbar (traçabilité des barres)}
 
 L’interface utilisateur s’articule autour d’une vue par projet ou par affaire. Le technicien sélectionne une barre via un filtre ou un QR code, puis peut :
 \begin{enumerate}
@@ -1545,7 +1542,7 @@ L’interface utilisateur s’articule autour d’une vue par projet ou par affa
 \end{enumerate}
 Le responsable de production accède à des vues globales : état des stocks, suivi d’affaire, tableaux de conformité, export Excel.
 
-\paragraph*{Suivi budgétaire maintenance} \
+\item \textbf{Suivi budgétaire maintenance} 
 
 Le chef de service accède à une interface de type tableau de bord :
 \begin{enumerate}
@@ -1554,8 +1551,18 @@ Le chef de service accède à une interface de type tableau de bord :
     \item Il visualise immédiatement l’évolution du budget.
     \item Il génère un rapport ou exporte les données pour analyse.
 \end{enumerate}
-
+\end{enumerate}
 La logique d’interface est homogène entre les trois outils (menus latéraux, filtres par date ou projet, onglets clairs), ce qui permet à l’utilisateur de retrouver ses repères rapidement et de naviguer sans assistance technique particulière.
+
+\subsubsection{Illustration des interfaces applicatives}
+
+Pour mieux illustrer le travail accompli durant la mission, un choix d’interfaces utilisateurs a été annexé. En effet, les captures d’écran proposées permettent de visualiser dans la pratique le résultat obtenu au terme des développements opérationnels réalisés, tant en termes d’ergonomie que de fonctionnalités. Celles-ci se doivent donc de venir en soutien à notre propre présentation, la mise en perspective visuelle des choix techniques que nous avons opéré en matière de navigation, de structuration de l’information et de confort d’utilisation, permettant in fine de mieux expliciter la pertinence du giron conceptuel au regard des résultats escomptés.
+
+Toutefois, compte tenu du nombre de projets développés au cours de cette alternance, trois applications complètes, chacune avec ses modules, ses workflows et ses spécificités.Il n’était ni pertinent ni lisible d’inclure l’intégralité des interfaces produites. Une documentation exhaustive aurait conduit à une surcharge visuelle et allongé considérablement le volume du document.
+
+C’est dans cette logique de clarté et de concision, il a été décidé de focaliser cette présentation visuelle autour de l’application \textbf{TraQbar}, désignée comme la plus représentative en termes de complexité, richesse fonctionnelle, interaction avec l’utilisateur. Les interfaces choisies englobent différentes facettes : tableau de suivi de production, déclaration de non-conformité, visualisation du parcours d’une barre, modules de supervision. Ce choix n’enlève rien à la qualité ou à l’importance des deux autres applications, mais vise à donner au lecteur une compréhension concrète du type d’outils livrés, sans alourdir inutilement le mémoire. Les autres interfaces restent disponibles sur demande ou peuvent faire l’objet d’un support dédié en annexe technique complémentaire.
+
+
 
 \subsubsection{Contraintes et adaptations techniques}
 
@@ -1942,7 +1949,6 @@ Plusieurs fonctionnalités complémentaires pourraient être envisagées à cour
     \item \textbf{Importer les graphique en pdf}, pour facilté la visualisation des graphes en pdf .
     \item \textbf{Support multi-langue} pour préparer l’outil à une utilisation internationale ou multisite.
     \item \textbf{Connexion plus avancées} , ajouter une fonctionnalité qui permettra aux utilisateurs de se connecter via le badge employé.
-\item 
 \end{itemize}
 
 \subsubsection{Recommandations pour l’organisation}
@@ -2225,7 +2231,10 @@ AD & Active Directory \\
 
 \newpage
 \section*{Annexes}
-\subsubsection*{Backlog de la base d'expertise}
+\begin{enumerate}
+\item \textbf{Product Backlog de la base d'expertise}
+
+
 \begin{table}[H]
 \centering
 \begin{tabular}{|c|p{5cm}|p{8cm}|c|}
@@ -2298,7 +2307,7 @@ US-22 & Gérer les rapports & En tant qu’utilisateur je peux générer les rap
 
 
 \newpage
-\subsubsection*{Product Backlog de TraQbar}
+\item \textbf{Product Backlog de TraQbar}
 \begin{table}[H]
 \centering
 \begin{tabular}{|c|p{5cm}|p{7cm}|c|}
@@ -2364,30 +2373,32 @@ US-20 & Gestion ECE & En tant qu’ECE, je peux gérer les contrôles ECE. & 3 \
 \hline
 US-21 & Gestion CG & En tant qu’ECE, je peux gérer les contrôles géométriques. & 3 \\
 \hline
-US-23 & Gestion mise caisse & En tant que production, je peux gérer la mise en caisse. & 3 \\
+US-22 & Gestion mise caisse & En tant que production, je peux gérer la mise en caisse. & 3 \\
 \hline
-US-22 & Suivre le stock & En tant qu’utilisateur, je peux suivre le stock des tourets. & 4 \\
+US-23 & Suivre le stock & En tant qu’utilisateur, je peux suivre le stock des tourets. & 4 \\
 \hline
-US-22 & Suivre les barres & En tant qu’utilisateur, je peux suivre toutes les barres d'une affaire. & 4 \\
+US-24 & Suivre les barres & En tant qu’utilisateur, je peux suivre toutes les barres d'une affaire. & 4 \\
 \hline
-US-22 & Suivre une barre  & En tant qu’utilisateur, je peux suivre les informations d'une barre. & 4 \\
+US-25 & Suivre une barre  & En tant qu’utilisateur, je peux suivre les informations d'une barre. & 4 \\
 \hline
-US-22 & Suivre production & En tant qu’utilisateur, je peux suivre les productions d'une affaire. & 4 \\
+US-26 & Suivre production & En tant qu’utilisateur, je peux suivre les productions d'une affaire. & 4 \\
 \hline
-US-22 & Suivre production journalier & En tant qu’utilisateur, je peux suivre la production journiliere d'une affaire. & 4 \\
+US-27 & Suivre production journalier & En tant qu’utilisateur, je peux suivre la production journiliere d'une affaire. & 4 \\
 \hline
-US-22 & Suivre l'historique des barres & En tant qu’utilisateur, je peux suivre l'historique des barres. & 4 \\
+US-28 & Suivre l'historique des barres & En tant qu’utilisateur, je peux suivre l'historique des barres. & 4 \\
 \hline
-US-22 & Suivre l'historique pas contrôle & En tant qu’utilisateur, je peux suivre l'historique de pas contrôle d'une barre. & 4 \\
+US-29 & Suivre l'historique pas contrôle & En tant qu’utilisateur, je peux suivre l'historique de pas contrôle d'une barre. & 4 \\
 \hline
-US-22 & Suivre l'historique fausse tôlerie & En tant qu’utilisateur, je peux suivre l'historique des fausses tôlerie d'une barre. & 4 \\
+US-30 & Suivre l'historique fausse tôlerie & En tant qu’utilisateur, je peux suivre l'historique des fausses tôlerie d'une barre. & 4 \\
 \hline
-US-22 & Suivre les contrôles électrique des barres & En tant qu’utilisateur, je peux suivre les contrôles ECE des barres. & 4 \\
+US-31 & Suivre les contrôles électrique des barres & En tant qu’utilisateur, je peux suivre les contrôles ECE des barres. & 4 \\
 
 \hline
-US-22 & Suivre l'historique fausse tôlerie & En tant qu’utilisateur, je peux suivre l'historique des fausses tôlerie d'une barre. & 4 \\
+US-32 & Suivre l'historique fausse tôlerie & En tant qu’utilisateur, je peux suivre l'historique des fausses tôlerie d'une barre. & 4 \\
 \hline
-
+\end{tabular}
+\caption{Product Backlog  2 – Application Suivi Budget Maintenance }
+\end{table}
 
 
 \newpage
@@ -2397,24 +2408,221 @@ US-22 & Suivre l'historique fausse tôlerie & En tant qu’utilisateur, je peux 
 \hline
 \textbf{ID} & \textbf{Cas d’utilisation} & \textbf{User Story} & \textbf{Priorité} \\
 \hline
+US-33 & Gestion rebuts & En tant que superviseur, je peux gérer les rebuts. & 5 \\
 \hline
-US-24 & Gestion rebuts & En tant que superviseur, je peux gérer les rebuts. & 5 \\
-
+US-34 & Gestion barres pré-série et réglage & En tant que technicien, je peux gérer les barres de présérie et le réglage. & 5 \\
 \hline
-US-27 & Gestion barres pré-série et réglage & En tant que technicien, je peux gérer les barres de présérie et le réglage. & 5 \\
+US-35 & Gestion réunions & En tant que superviseur, je peux gérer les réunions. & 5 \\
 \hline
-US-28 & Gestion réunions & En tant que superviseur, je peux gérer les réunions. & 5 \\
+US-36 & Gestion historique des tables & En tant que superviseur, je peux consulter l’historique des tables. & 5 \\
 \hline
-US-29 & Gestion historique des tables & En tant que superviseur, je peux consulter l’historique des tables. & 5 \\
-\hline
-US-30 & Gestion impressions pdf/excel & En tant qu’utilisateur, je peux générer et imprimer les rapports. & 5 \\
+US-37 & Gestion impressions pdf/excel & En tant qu’utilisateur, je peux générer et imprimer les rapports. & 5 \\
 \hline
 \end{tabular}
-\caption{Product Backlog  2 – Application Suivi Budget Maintenance }
+\caption{Product Backlog  3 – Application Suivi Budget Maintenance }
 \end{table}
 
 \newpage
-\subsubsection*{Product Backlog de Suivi Budget}
+\item \textbf{Product Backlog de Suivi Budget Maintenance}
+\begin{table}[H]
+\centering
+\begin{tabular}{|c|p{5cm}|p{7cm}|c|}
+\hline
+\textbf{ID} & \textbf{Cas d’utilisation} & \textbf{User Story} & \textbf{Priorité} \\
+\hline
+US-01 & S’authentifier & En tant qu’utilisateur, je peux m’authentifier pour accéder aux fonctionnalités de l’application. & 1 \\
+\hline
+US-02 & Gérer Utilisateur & En tant qu’admin, je peux gérer les comptes utilisateurs. & 1 \\
+\hline
+US-03 & Gérer Articles & En tant qu’admin, je peux gérer les articles pour les dépenses. & 1 \\
+\hline
+US-04 & Gérer réceptionniste & En tant qu’admin, je peux ajouter ou modifier les réceptionnistes. & 1 \\
+\hline
+US-05 & Gérer investissement & En tant qu’admin, je peux gérer les investissements de l’organisation. & 1 \\
+\hline
+US-06 & Gérer dépense investissement & En tant qu’admin, je peux gérer les dépenses liées aux investissements. & 1 \\
+\hline	
+US-07 & Gérer dépense & En tant qu’admin, je peux saisir et suivre toutes les dépenses. & 1 \\
+\hline
+US-08 & Exporter en PDF & En tant qu’utilisateur, je peux exporter les données de dépense en PDF. & 2 \\
+\hline
+US-09 & Exporter en Excel & En tant qu’utilisateur, je peux exporter les données de dépense en Excel. & 2 \\
+\hline
+US-10 & Gérer budget & En tant que superviseur, je peux définir et ajuster le budget. & 2 \\
+\hline
+US-11 & Voir Historique & En tant que superviseur, je peux consulter l’historique des dépenses et budgets. & 2 \\
+\hline
+US-12 & Gérer filtre & En tant que superviseur, je peux filtrer les dépenses selon différents critères. & 2 \\
+\hline
+\end{tabular}
+\caption{Product Backlog – Application Suivi Budget Maintenance}
+\end{table}
+
+\newpage
+\item \textbf{Quelques Interfaces de l'application TraQbar }
+\begin{table}[H]
+\centering
+\renewcommand{\arraystretch}{1}
+\begin{tabular}{|p{8cm}|p{8cm}|}
+\hline
+S’authentifier & Tableau de bord \tabularnewline
+\hline
+\centering\includegraphics[width=1\linewidth]{../IMGS/auth.png} &
+\centering\includegraphics[width=1\linewidth]{../IMGS/tableau-bord.png} \tabularnewline
+\hline
+Liste Admins & Ajouter un admin \tabularnewline
+\hline
+\centering\includegraphics[width=1\linewidth]{../IMGS/listes utilisateurs.png} &
+\centering\includegraphics[width=1\linewidth]{../IMGS/ajouter utilisateur.png} \tabularnewline
+\hline
+Liste des affaires & Ajouter une affaire \tabularnewline
+\hline
+\centering\includegraphics[width=1\linewidth]{../IMGS/affaire-list.png} &
+\centering\includegraphics[width=1\linewidth]{../IMGS/affaire-add.png} \tabularnewline
+\hline
+Accueil Production & Affaire existante \tabularnewline
+\hline
+\centering\includegraphics[width=0.9\linewidth]{../IMGS/prod-acc.png} &
+\centering\includegraphics[width=0.9\linewidth]{../IMGS/page_affaire.png} \tabularnewline
+\hline
+\end{tabular}
+\caption{Quelques Interfaces de l’application TraQbar}
+\end{table}
+
+\newpage
+\begin{table}[H]
+\centering
+\renewcommand{\arraystretch}{1.5}
+\begin{tabular}{|p{8cm}|p{8cm}|}
+\hline
+Accueil Production d'une affaire & Accueil Logistique \tabularnewline
+\hline
+\centering\includegraphics[width=1\linewidth]{../IMGS/index production.png} &
+\centering\includegraphics[width=1\linewidth]{../IMGS/Accueil-logist&Sup.png} \tabularnewline
+\hline
+Table technique & Table Process \tabularnewline
+\hline
+\centering\includegraphics[width=1\linewidth]{../IMGS/table technique 1.png} &
+\centering\includegraphics[width=1\linewidth]{../IMGS/table-process-1.png} \tabularnewline
+\hline
+\centering\includegraphics[width=1\linewidth]{../IMGS/table technique 2.png} &
+\centering\includegraphics[width=1\linewidth]{../IMGS/table-process-2.png} \tabularnewline
+\hline
+Accueil Production par poste & Page de Configuration \tabularnewline
+\hline
+\centering\includegraphics[width=1\linewidth]{../IMGS/acc-prod-poste.png} &
+\centering\includegraphics[width=1\linewidth]{../IMGS/config.png} \tabularnewline
+\hline
+Poste - Débit et tressage & Ajout de touret  \tabularnewline
+\hline
+\centering\includegraphics[width=1\linewidth]{../IMGS/debit-barre-encours.png} &
+\centering\includegraphics[width=1\linewidth]{../IMGS/touret-add.png} \tabularnewline
+\hline
+\end{tabular}
+\end{table}
+
+
+\newpage
+\begin{table}[H]
+\centering
+\renewcommand{\arraystretch}{1.5}
+\begin{tabular}{|p{8cm}|p{8cm}|}
+\hline
+Opération de production en cours au poste débit & Confirmation de l'état de la barre \tabularnewline
+\hline
+\centering\includegraphics[width=1\linewidth]{../IMGS/page d'operation.png} &
+\centering\includegraphics[width=1\linewidth]{../IMGS/section confirmation.png} \tabularnewline
+\hline
+Barre non  conforme - choix de la cause & Section déclaration d'une panne \tabularnewline
+\hline
+\centering\includegraphics[width=1\linewidth]{../IMGS/section confiramtion de non-conforme.png} &
+\centering\includegraphics[width=1\linewidth]{../IMGS/section panne.png} \tabularnewline
+\hline
+Poste - Presse agglommération CALIBRE MIN ET MAX  & Page de validation des barres \tabularnewline
+\hline
+\centering\includegraphics[width=1\linewidth]{../IMGS/poste agglommération calibre min et max.png} &
+\centering\includegraphics[width=1\linewidth]{../IMGS/poste agglo-confirmation des barres.png} \tabularnewline
+\hline
+Poste - Déshydratation des barres  & Page de validation des barres en déshydratation \tabularnewline
+\hline\centering\includegraphics[width=1\linewidth]{../IMGS/deshydratation.png} &
+\centering\includegraphics[width=1\linewidth]{../IMGS/valider_deshydration.png} \tabularnewline
+\hline
+
+Confirmation des barres en cours de déshydratation  & Valider une seule barre en cours déshydratation \tabularnewline
+\hline
+\centering\includegraphics[width=1\linewidth]{../IMGS/valider_toutes_les_barres_deshy.png} &
+\centering\includegraphics[width=1\linewidth]{../IMGS/valider_une_seule_barre_deshy.png} \tabularnewline
+\hline
+
+\end{tabular}
+\end{table}
+
+\newpage
+\begin{table}[H]
+\centering
+\renewcommand{\arraystretch}{1.5}
+\begin{tabular}{|p{8cm}|p{8cm}|}
+\hline
+Poste -  Essais Electrique, partie Tangente, saisie une barre & Remplir les informations ECE de la barre \tabularnewline
+\hline
+\centering\includegraphics[width=1\linewidth]{../IMGS/elec-tang-acc.png} &
+\centering\includegraphics[width=1\linewidth]{../IMGS/elec-tang-delta.png} \tabularnewline
+\hline
+
+Supervision, suivi stock & Supervision, suivi stock \tabularnewline
+\hline
+\centering\includegraphics[width=1\linewidth]{../IMGS/suivi stock 1.png} &
+\centering\includegraphics[width=1\linewidth]{../IMGS/suivi stock 2.png} \tabularnewline
+\hline
+Supervision, suivi d'une barre & Supervision, suivi des barres \tabularnewline
+\centering\includegraphics[width=1\linewidth]{../IMGS/suivi-une-barre.png} &
+\centering\includegraphics[width=1\linewidth]{../IMGS/suivi-barres.png} \tabularnewline
+
+\centering\includegraphics[width=1\linewidth]{../IMGS/suivi d'une barre 2.png} &
+\centering\includegraphics[width=1\linewidth]{../IMGS/suivi des barres 2.png} \tabularnewline
+\hline
+Supervision, suivi production journalier & Supervision, suivi production globale \tabularnewline
+
+\centering\includegraphics[width=1\linewidth]{../IMGS/suivi-journalier.png} &
+\centering\includegraphics[width=1\linewidth]{../IMGS/suivi-production.png} \tabularnewline
+\hline
+\end{tabular}
+\end{table}
+
+
+\newpage
+\begin{table}[H]
+\centering
+\renewcommand{\arraystretch}{1.5}
+\begin{tabular}{|p{8cm}|p{8cm}|}
+\hline
+Supervision -  Statistique des barres & Statistique des barres \tabularnewline
+\centering\includegraphics[width=1\linewidth]{../IMGS/state-1.png} 
+	&
+\centering\includegraphics[width=1\linewidth]{../IMGS/state-2.png} \tabularnewline
+
+\centering\includegraphics[width=1\linewidth]{../IMGS/Super-3.png} &
+\centering\includegraphics[width=1\linewidth]{../IMGS/Super-4.png} \tabularnewline
+\hline
+Logistique -  Approvisionnement des tourets & Les barres déclarées non-conforme (malfaçon) \tabularnewline
+\hline
+\centering\includegraphics[width=1\linewidth]{../IMGS/Logistique.png} &
+\centering\includegraphics[width=1\linewidth]{../IMGS/malf.png} \tabularnewline
+\hline
+Ajout d'une caisse & Mise en caisse des barres \tabularnewline
+\hline
+\centering\includegraphics[width=1\linewidth]{../IMGS/mise en caisse.png} &
+\centering\includegraphics[width=1\linewidth]{../IMGS/ajouter_une_barre_dans_une_caisse.png} \tabularnewline
+
+\hline
+\centering\includegraphics[width=1\linewidth]{../IMGS/ajout d'une nouvelle caisse.png} &
+\centering\includegraphics[width=1\linewidth]{../IMGS/impre-caisse.png}
+ \tabularnewline
+\hline
+\end{tabular}
+\end{table}
+
+\end{enumerate}
 
 \newpage
 \section*{Résumé}

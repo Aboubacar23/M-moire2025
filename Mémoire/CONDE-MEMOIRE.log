@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.2.18)  9 JUL 2025 16:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.2.18)  11 JUL 2025 10:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -277,6 +277,18 @@ Package: titling 2009/09/04 v2.1d maketitle typesetting
 \thanksmargin=\skip62
 \droptitle=\skip63
 )
+(/usr/share/texlive/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdflscape/pdflscape-nometadata.sty
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PD
+F (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+))
 (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 )
@@ -336,38 +348,27 @@ LaTeX Warning: Label `tab:planification_projet1' multiply defined.
 LaTeX Warning: Label `fig:architecture_logiciel' multiply defined.
 
 )
-Runaway argument?
-{\contentsline 
-! File ended while scanning use of \@writefile.
-<inserted text> 
-                \par 
-l.26 \begin{document}
-                     
-I suspect you have forgotten a `}', causing me
-to read past where you wanted me to stop.
-I'll try to recover; but if the error is serious,
-you'd better type `E' or `X' now and fix your file.
-
 \openout1 = `CONDE-MEMOIRE.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -424,127 +425,105 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 26.
+Package hyperref Info: Link coloring OFF on input line 27.
 
-(./CONDE-MEMOIRE.out)
-Runaway argument?
-{subsection 
-! File ended while scanning use of \@@BOOKMARK.
-<inserted text> 
-                \par 
-l.26 \begin{document}
-                     
-I suspect you have forgotten a `}', causing me
-to read past where you wanted me to stop.
-I'll try to recover; but if the error is serious,
-you'd better type `E' or `X' now and fix your file.
-
-(./CONDE-MEMOIRE.out)
-Runaway argument?
-{subsection 
-! File ended while scanning use of \@@BOOKMARK.
-<inserted text> 
-                \par 
-l.26 \begin{document}
-                     
-I suspect you have forgotten a `}', causing me
-to read past where you wanted me to stop.
-I'll try to recover; but if the error is serious,
-you'd better type `E' or `X' now and fix your file.
-
+(./CONDE-MEMOIRE.out) (./CONDE-MEMOIRE.out)
 \@outlinefile=\write3
 \openout3 = `CONDE-MEMOIRE.out'.
 
-LaTeX Info: Redefining \degres on input line 26.
-LaTeX Info: Redefining \up on input line 26.
-<../Images/logo-sup.jpg, id=313, 129.1005pt x 107.091pt>
+LaTeX Info: Redefining \degres on input line 27.
+LaTeX Info: Redefining \up on input line 27.
+<../Images/logo-sup.jpg, id=349, 129.1005pt x 107.091pt>
 File: ../Images/logo-sup.jpg Graphic file (type jpg)
 <use ../Images/logo-sup.jpg>
-Package pdftex.def Info: ../Images/logo-sup.jpg  used on input line 32.
+Package pdftex.def Info: ../Images/logo-sup.jpg  used on input line 33.
 (pdftex.def)             Requested size: 142.26378pt x 118.01451pt.
-<../Images/logo.png, id=314, 1877.0125pt x 767.86874pt>
+<../Images/logo.png, id=350, 1877.0125pt x 767.86874pt>
 File: ../Images/logo.png Graphic file (type png)
 <use ../Images/logo.png>
-Package pdftex.def Info: ../Images/logo.png  used on input line 38.
+Package pdftex.def Info: ../Images/logo.png  used on input line 39.
 (pdftex.def)             Requested size: 142.26378pt x 58.19693pt.
 
-Overfull \hbox (19.4216pt too wide) in paragraph at lines 30--40
+Overfull \hbox (19.4216pt too wide) in paragraph at lines 31--41
 [][]  [] 
  []
 
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 45.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 45.
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <../Images/logo-sup.jpg> <.
-./Images/logo.png>] [2] [3] [4] (./CONDE-MEMOIRE.toc)
+./Images/logo.png>] [2] [3] [4] (./CONDE-MEMOIRE.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 8.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 8.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 8.
+ [5])
 \tf@toc=\write4
 \openout4 = `CONDE-MEMOIRE.toc'.
 
- [5]
+ [6]
 (./CONDE-MEMOIRE.lof)
 \tf@lof=\write5
 \openout5 = `CONDE-MEMOIRE.lof'.
 
- [6] (./CONDE-MEMOIRE.lot)
+ [7] (./CONDE-MEMOIRE.lot)
 \tf@lot=\write6
 \openout6 = `CONDE-MEMOIRE.lot'.
 
- [7] [8] [9]
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 203.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 203.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 203.
+ [8] [9] [10]
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 2
-03.
+05.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 203.
+(Font)              <9> on input line 205.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 203.
+(Font)              <5> on input line 205.
 File: ../Images/logo.png Graphic file (type png)
 <use ../Images/logo.png>
-Package pdftex.def Info: ../Images/logo.png  used on input line 207.
+Package pdftex.def Info: ../Images/logo.png  used on input line 209.
 (pdftex.def)             Requested size: 364.19667pt x 148.98979pt.
- [10
+ [11
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.216 
-      ] [11]
-<../Images/organigramme.png, id=387, 881.54344pt x 601.4972pt>
+l.218 
+      ] [12]
+<../Images/organigramme.png, id=572, 881.54344pt x 601.4972pt>
 File: ../Images/organigramme.png Graphic file (type png)
 <use ../Images/organigramme.png>
 Package pdftex.def Info: ../Images/organigramme.png  used on input line 276.
 (pdftex.def)             Requested size: 455.24411pt x 310.62349pt.
- [12
+ [13
 pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has
  been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.279 
-      ] [13
+      ] [14
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.292     \item \textbf
                        {Service Technique} : apporte un support technique au...
- <../Images/Organigramme.png>] [14] [15] [16] [17] [18]
-<../Images/app-si.png, id=436, 1541.76pt x 1027.84pt>
+ <../Images/Organigramme.png>] [15] [16] [17] [18] [19]
+<../Images/app-si.png, id=620, 1541.76pt x 1027.84pt>
 File: ../Images/app-si.png Graphic file (type png)
 <use ../Images/app-si.png>
 Package pdftex.def Info: ../Images/app-si.png  used on input line 438.
-(pdftex.def)             Requested size: 364.19667pt x 242.79712pt.
- [19]
+(pdftex.def)             Requested size: 227.62206pt x 151.73839pt.
+ [20
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.445 
+       <../Images/app-si.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 450--451
 
  []
@@ -555,180 +534,169 @@ Overfull \hbox (4.31378pt too wide) in paragraph at lines 458--460
  dé-ve-lop-pées en ité-ra-tions courtes,
  []
 
-[20
-pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
-s been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.461     \item \textbf
-                       {Sâ€™intÃ©grer au systÃ¨me dâ€™information existant} \\ 
-<../Images/app-si.png>]
-Overfull \hbox (43.80884pt too wide) in paragraph at lines 472--475
-\T1/cmr/m/n/10.95 Plus en-core, elles illus-trhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
-hhhhhhhhhhhhhhhhhhhhhhhhhhhhhent
- []
-
-<../Images/app-mesure.png, id=450, 867.24pt x 433.62pt>
+[21]
+<../Images/app-mesure.png, id=632, 867.24pt x 433.62pt>
 File: ../Images/app-mesure.png Graphic file (type png)
 <use ../Images/app-mesure.png>
 Package pdftex.def Info: ../Images/app-mesure.png  used on input line 479.
 (pdftex.def)             Requested size: 455.24411pt x 227.62082pt.
-[21
+ [22
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.483 \newpage
-               <../Images/app-mesure.png>] [22] [23] [24]
-<../Images/application-web.png, id=474, 1128.215pt x 470.75874pt>
+l.502 D
+       ans lâ€™industrie, la capacitÃ© Ã  retracer qui a fait quoi, quand, e...
+ <../Images/app-mesure.png>] [23] [24]
+<../Images/application-web.png, id=651, 1128.215pt x 470.75874pt>
 File: ../Images/application-web.png Graphic file (type png)
 <use ../Images/application-web.png>
-Package pdftex.def Info: ../Images/application-web.png  used on input line 619.
+Package pdftex.def Info: ../Images/application-web.png  used on input line 615.
 
 (pdftex.def)             Requested size: 455.24411pt x 189.95229pt.
- [25
+ [25] [26
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.626 
-       <../Images/application-web.png>] [26] [27] [28] [29] [30] [31]
-<../Images/objectis.png, id=515, 750.805pt x 604.2575pt>
+l.633 \newpage
+               <../Images/application-web.png>] [27] [28] [29] [30] [31]
+<../Images/objectis.png, id=691, 750.805pt x 604.2575pt>
 File: ../Images/objectis.png Graphic file (type png)
 <use ../Images/objectis.png>
-Package pdftex.def Info: ../Images/objectis.png  used on input line 768.
+Package pdftex.def Info: ../Images/objectis.png  used on input line 764.
 (pdftex.def)             Requested size: 409.71692pt x 329.75177pt.
- [32
+
+[32
 pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.773 
+l.769 
        <../Images/objectis.png>] [33] [34] [35] [36] [37]
-<../Images/scrum.jpg, id=543, 1204.5pt x 629.35126pt>
+<../Images/scrum.jpg, id=718, 1204.5pt x 629.35126pt>
 File: ../Images/scrum.jpg Graphic file (type jpg)
 <use ../Images/scrum.jpg>
-Package pdftex.def Info: ../Images/scrum.jpg  used on input line 899.
+Package pdftex.def Info: ../Images/scrum.jpg  used on input line 895.
 (pdftex.def)             Requested size: 455.24411pt x 237.86914pt.
  [38
 pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.919 	\item \textbf
+l.915 	\item \textbf
                     {Le Product Owner :} Est un membre Ã  part entiÃ¨re de l...
  <../Images/scrum.jpg>] [39] [40] [41]
-<../Images/organisation.png, id=567, 730.73pt x 338.26375pt>
+<../Images/organisation.png, id=741, 730.73pt x 338.26375pt>
 File: ../Images/organisation.png Graphic file (type png)
 <use ../Images/organisation.png>
-Package pdftex.def Info: ../Images/organisation.png  used on input line 1005.
+Package pdftex.def Info: ../Images/organisation.png  used on input line 1000.
 (pdftex.def)             Requested size: 364.19667pt x 168.5895pt.
- [42]
-Underfull \hbox (badness 10000) in paragraph at lines 1009--1011
+
+Underfull \hbox (badness 10000) in paragraph at lines 1004--1006
 
  []
 
-[43
+[42
 pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1027     \item \textbf
-                        {Mise en production et accompagnement (mois 1)}\\ <../I
-mages/organisation.png>] [44] [45] [46]
-<../Images/github.png, id=600, 1263.97218pt x 634.62094pt>
+l.1006 \newpage
+                <../Images/organisation.png>] [43] [44] [45] [46]
+<../Images/github.png, id=774, 1263.97218pt x 634.62094pt>
 File: ../Images/github.png Graphic file (type png)
 <use ../Images/github.png>
-Package pdftex.def Info: ../Images/github.png  used on input line 1126.
+Package pdftex.def Info: ../Images/github.png  used on input line 1121.
 (pdftex.def)             Requested size: 455.24411pt x 228.56987pt.
-<../Images/trello.png, id=601, 1923.185pt x 841.1425pt>
+<../Images/trello.png, id=775, 1923.185pt x 841.1425pt>
 File: ../Images/trello.png Graphic file (type png)
 <use ../Images/trello.png>
-Package pdftex.def Info: ../Images/trello.png  used on input line 1134.
+Package pdftex.def Info: ../Images/trello.png  used on input line 1129.
 (pdftex.def)             Requested size: 455.24411pt x 199.106pt.
  [47
 pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1137 
+l.1132 
         <../Images/github.png>]
-<../Images/planning-2.png, id=608, 1715.40875pt x 798.985pt>
+<../Images/planning-2.png, id=781, 1715.40875pt x 798.985pt>
 File: ../Images/planning-2.png Graphic file (type png)
 <use ../Images/planning-2.png>
-Package pdftex.def Info: ../Images/planning-2.png  used on input line 1156.
+Package pdftex.def Info: ../Images/planning-2.png  used on input line 1151.
 (pdftex.def)             Requested size: 455.24411pt x 212.0348pt.
  [48
 pdfTeX warning (ext4): destination with the same identifier (name{figure.10}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1159 
+l.1154 
         <../Images/trello.png>]
-<../Images/planning-sur-2025.png, id=616, 1718.42pt x 719.68875pt>
+<../Images/planning-sur-2025.png, id=787, 1718.42pt x 719.68875pt>
 File: ../Images/planning-sur-2025.png Graphic file (type png)
 <use ../Images/planning-sur-2025.png>
 Package pdftex.def Info: ../Images/planning-sur-2025.png  used on input line 11
-74.
+69.
 (pdftex.def)             Requested size: 455.24411pt x 190.65071pt.
  [49
 pdfTeX warning (ext4): destination with the same identifier (name{figure.11}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1181 \end{center}
+l.1176 \end{center}
                    
 pdfTeX warning (ext4): destination with the same identifier (name{figure.12}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1181 \end{center}
+l.1176 \end{center}
                     <../Images/planning-2.png> <../Images/planning-sur-2025.png
 >] [50] [51]
-<../Images/architecture-logique.png, id=636, 683.55376pt x 442.65375pt>
+<../Images/architecture-logique.png, id=805, 683.55376pt x 442.65375pt>
 File: ../Images/architecture-logique.png Graphic file (type png)
 <use ../Images/architecture-logique.png>
 Package pdftex.def Info: ../Images/architecture-logique.png  used on input line
- 1237.
+ 1232.
 (pdftex.def)             Requested size: 409.71692pt x 265.33087pt.
  [52
 pdfTeX warning (ext4): destination with the same identifier (name{figure.13}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1250 
+l.1245 
         <../Images/architecture-logique.png (PNG copy)>] [53]
-<../Images/ClientServeur.jpeg, id=651, 692.5875pt x 518.93875pt>
+<../Images/ClientServeur.jpeg, id=819, 692.5875pt x 518.93875pt>
 File: ../Images/ClientServeur.jpeg Graphic file (type jpg)
 <use ../Images/ClientServeur.jpeg>
-Package pdftex.def Info: ../Images/ClientServeur.jpeg  used on input line 1299.
+Package pdftex.def Info: ../Images/ClientServeur.jpeg  used on input line 1294.
 
 (pdftex.def)             Requested size: 311.66148pt x 233.52028pt.
-
-Overfull \hbox (2.91064pt too wide) in paragraph at lines 1308--1309
- \T1/cmr/bx/n/10.95 4.3.2.3 Schéma d'ar-chi-tec-ture gé-né-rale[][] \T1/cmr/m/n
-/10.95 Le schéma ci-dessous pré-sente l'or-ga-ni-sa-tion fonc-
- []
-
-<../Images/schema_composant.png, id=652, 1027.84pt x 1541.76pt>
-File: ../Images/schema_composant.png Graphic file (type png)
-<use ../Images/schema_composant.png>
-Package pdftex.def Info: ../Images/schema_composant.png  used on input line 131
-2.
-(pdftex.def)             Requested size: 308.35437pt x 462.53157pt.
-[54
+ [54
 pdfTeX warning (ext4): destination with the same identifier (name{figure.14}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1316 
-        <../Images/ClientServeur.jpeg>]
-Underfull \hbox (badness 10000) in paragraph at lines 1327--1327
+l.1301 \newpage
+                <../Images/ClientServeur.jpeg>]
+Overfull \hbox (2.91064pt too wide) in paragraph at lines 1304--1305
+ \T1/cmr/bx/n/10.95 4.3.2.3 Schéma d'ar-chi-tec-ture gé-né-rale[][] \T1/cmr/m/n
+/10.95 Le schéma ci-dessous pré-sente l'or-ga-ni-sa-tion fonc-
+ []
+
+<../Images/schema_composant.png, id=825, 1027.84pt x 1541.76pt>
+File: ../Images/schema_composant.png Graphic file (type png)
+<use ../Images/schema_composant.png>
+Package pdftex.def Info: ../Images/schema_composant.png  used on input line 130
+8.
+(pdftex.def)             Requested size: 308.35437pt x 462.53157pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1323--1323
 []\T1/cmr/bx/n/10.95 Navigateur Web
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1339--1339
+Underfull \hbox (badness 10000) in paragraph at lines 1335--1335
 []\T1/cmr/bx/n/10.95 Base de don-nées
  []
 
@@ -737,89 +705,90 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.15}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1345 
+l.1341 
         <../Images/schema_composant.png>] [56
 pdfTeX warning (ext4): destination with the same identifier (name{table.2}) has
  been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1369 
+l.1365 
        ] [57] [58
 pdfTeX warning (ext4): destination with the same identifier (name{table.3}) has
  been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1439 \newpage
+l.1435 \newpage
                ] [59
 pdfTeX warning (ext4): destination with the same identifier (name{table.4}) has
  been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1509 C
+l.1505 C
         haque fonctionnalitÃ© a Ã©tÃ© livrÃ©e au fil de lâ€™eau, testÃ©e en ...
 
 pdfTeX warning (ext4): destination with the same identifier (name{table.5}) has
  been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1509 C
+l.1505 C
         haque fonctionnalitÃ© a Ã©tÃ© livrÃ©e au fil de lâ€™eau, testÃ©e en ...
-] [60] [61] [62]
-Underfull \hbox (badness 1210) in paragraph at lines 1656--1656
+] [60] [61] [62] [63]
+Underfull \hbox (badness 1210) in paragraph at lines 1663--1663
 []\T1/cmr/m/n/10.95 Cliquer sur le bou-ton ^^S
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1658--1658
+Underfull \hbox (badness 10000) in paragraph at lines 1665--1665
 []\T1/cmr/m/n/10.95 Test de mo-di-fi-ca-tion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1660--1660
+Underfull \hbox (badness 10000) in paragraph at lines 1667--1667
 []\T1/cmr/m/n/10.95 Test de sup-pres-sion
  []
 
 
-Underfull \hbox (badness 1210) in paragraph at lines 1660--1660
+Underfull \hbox (badness 1210) in paragraph at lines 1667--1667
 []\T1/cmr/m/n/10.95 Cliquer sur le bou-ton ^^S
  []
 
 
-Underfull \hbox (badness 2221) in paragraph at lines 1662--1662
+Underfull \hbox (badness 2221) in paragraph at lines 1669--1669
 []\T1/cmr/m/n/10.95 Cliquer sur l'icon \T1/cmr/bx/n/10.95 pass-
  []
 
 
-Overfull \hbox (47.99995pt too wide) in paragraph at lines 1650--1667
+Overfull \hbox (47.99995pt too wide) in paragraph at lines 1657--1674
  [][] 
  []
 
-[63] [64
+[64
 pdfTeX warning (ext4): destination with the same identifier (name{table.6}) has
  been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1682 \end{itemize}
-                    ] [65] [66] [67]
-<../Images/bilan_quantitative.jpg, id=760, 1027.84pt x 1027.84pt>
+l.1681 L
+        es itÃ©rations issues de ces retours ont permis dâ€™amÃ©liorer signi...
+] [65] [66] [67]
+<../Images/bilan_quantitative.jpg, id=921, 1027.84pt x 1027.84pt>
 File: ../Images/bilan_quantitative.jpg Graphic file (type jpg)
 <use ../Images/bilan_quantitative.jpg>
 Package pdftex.def Info: ../Images/bilan_quantitative.jpg  used on input line 1
-804.
+811.
 (pdftex.def)             Requested size: 409.71692pt x 409.7172pt.
  [68] [69
 pdfTeX warning (ext4): destination with the same identifier (name{figure.16}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1810 \newpage
+l.1817 \newpage
                 <../Images/bilan_quantitative.jpg>] [70]
-Underfull \hbox (badness 3536) in paragraph at lines 1867--1868
+Underfull \hbox (badness 3536) in paragraph at lines 1874--1875
 []\T1/cmr/m/n/10.95 Dépendance aux res-sources in-ternes
  []
 
 
-Underfull \hbox (badness 2042) in paragraph at lines 1879--1880
+Underfull \hbox (badness 2042) in paragraph at lines 1886--1887
 []\T1/cmr/m/n/10.95 Amélioration conti-nue par ité-ra-tions
  []
 
@@ -828,12 +797,494 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.7}) has
  been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1898 \subsubsection
+l.1905 \subsubsection
                      {MontÃ©e en compÃ©tences}] [72] [73] [74] [75] [76]
 [77] [78] [79]
-Overfull \hbox (12.54721pt too wide) in paragraph at lines 2120--2183
+Overfull \hbox (12.54721pt too wide) in paragraph at lines 2126--2189
 [][] 
  []
 
 [80]
-Overfull \hbox (32.93309pt too wide) in para
+Overfull \hbox (32.93309pt too wide) in paragraph at lines 2210--2211
+[]\T1/cmr/m/n/10.95 Partie vi-sible de l'ap-pli-ca-tion côté uti-li-sa-teur, gé
+-né-ra-le-ment dé-ve-lop-pée en HTML/CSS/JS
+ []
+
+[81]
+Underfull \hbox (badness 5970) in paragraph at lines 2265--2265
+[]\T1/cmr/m/n/10.95 Gérer l'ex-per-tise élec-trique
+ []
+
+
+Overfull \hbox (33.95036pt too wide) in paragraph at lines 2240--2275
+ [][] 
+ []
+
+[82
+pdfTeX warning (ext4): destination with the same identifier (name{table.8}) has
+ been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.2278 \newpage
+               ]
+Overfull \hbox (33.95036pt too wide) in paragraph at lines 2281--2305
+ [][] 
+ []
+
+[83
+pdfTeX warning (ext4): destination with the same identifier (name{table.9}) has
+ been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.2309 \newpage
+               ]
+Overfull \hbox (5.4976pt too wide) in paragraph at lines 2313--2352
+ [][] 
+ []
+
+[84
+pdfTeX warning (ext4): destination with the same identifier (name{table.10}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.2355 \newpage
+               ]
+Underfull \hbox (badness 3872) in paragraph at lines 2372--2372
+[]\T1/cmr/m/n/10.95 En tant qu'ECE, je peux gé-rer les
+ []
+
+
+Underfull \hbox (badness 3872) in paragraph at lines 2374--2374
+[]\T1/cmr/m/n/10.95 En tant qu'ECE, je peux gé-rer les
+ []
+
+
+Underfull \hbox (badness 1472) in paragraph at lines 2380--2380
+[]\T1/cmr/m/n/10.95 En tant qu'uti-li-sa-teur, je peux suivre
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2390--2390
+[]\T1/cmr/m/n/10.95 Suivre l'his-to-rique pas
+ []
+
+
+Overfull \hbox (5.4976pt too wide) in paragraph at lines 2358--2400
+ [][] 
+ []
+
+[85
+pdfTeX warning (ext4): destination with the same identifier (name{table.11}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.2404 \newpage
+               ]
+Overfull \hbox (5.4976pt too wide) in paragraph at lines 2407--2422
+ [][] 
+ []
+
+[86
+pdfTeX warning (ext4): destination with the same identifier (name{table.12}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.2425 \newpage
+               ]
+Underfull \hbox (badness 2065) in paragraph at lines 2435--2435
+[]\T1/cmr/m/n/10.95 En tant qu'ad-min, je peux gé-rer les
+ []
+
+
+Overfull \hbox (5.4976pt too wide) in paragraph at lines 2429--2458
+ [][] 
+ []
+
+[87
+pdfTeX warning (ext4): destination with the same identifier (name{table.13}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.2461 \newpage
+               ]
+<../IMGS/auth.png, id=1032, 1682.285pt x 699.61375pt>
+File: ../IMGS/auth.png Graphic file (type png)
+<use ../IMGS/auth.png>
+Package pdftex.def Info: ../IMGS/auth.png  used on input line 2470.
+(pdftex.def)             Requested size: 227.62204pt x 94.65729pt.
+<../IMGS/tableau-bord.png, id=1033, 1927.2pt x 952.55875pt>
+File: ../IMGS/tableau-bord.png Graphic file (type png)
+<use ../IMGS/tableau-bord.png>
+Package pdftex.def Info: ../IMGS/tableau-bord.png  used on input line 2471.
+(pdftex.def)             Requested size: 227.62204pt x 112.49979pt.
+<../IMGS/listes utilisateurs.png, id=1034, 1912.14375pt x 861.2175pt>
+File: ../IMGS/listes utilisateurs.png Graphic file (type png)
+<use ../IMGS/listes utilisateurs.png>
+Package pdftex.def Info: ../IMGS/listes utilisateurs.png  used on input line 24
+75.
+(pdftex.def)             Requested size: 227.62204pt x 102.51375pt.
+<../IMGS/ajouter utilisateur.png, id=1035, 1926.19624pt x 871.255pt>
+File: ../IMGS/ajouter utilisateur.png Graphic file (type png)
+<use ../IMGS/ajouter utilisateur.png>
+Package pdftex.def Info: ../IMGS/ajouter utilisateur.png  used on input line 24
+76.
+(pdftex.def)             Requested size: 227.62204pt x 102.95078pt.
+<../IMGS/affaire-list.png, id=1036, 1372.12625pt x 925.4575pt>
+File: ../IMGS/affaire-list.png Graphic file (type png)
+<use ../IMGS/affaire-list.png>
+Package pdftex.def Info: ../IMGS/affaire-list.png  used on input line 2480.
+(pdftex.def)             Requested size: 227.62204pt x 153.51292pt.
+<../IMGS/affaire-add.png, id=1037, 1374.13374pt x 959.585pt>
+File: ../IMGS/affaire-add.png Graphic file (type png)
+<use ../IMGS/affaire-add.png>
+Package pdftex.def Info: ../IMGS/affaire-add.png  used on input line 2481.
+(pdftex.def)             Requested size: 227.62204pt x 158.93965pt.
+<../IMGS/prod-acc.png, id=1038, 1884.03876pt x 861.2175pt>
+File: ../IMGS/prod-acc.png Graphic file (type png)
+<use ../IMGS/prod-acc.png>
+Package pdftex.def Info: ../IMGS/prod-acc.png  used on input line 2485.
+(pdftex.def)             Requested size: 204.85844pt x 93.63036pt.
+<../IMGS/page_affaire.png, id=1039, 1848.9075pt x 440.64626pt>
+File: ../IMGS/page_affaire.png Graphic file (type png)
+<use ../IMGS/page_affaire.png>
+Package pdftex.def Info: ../IMGS/page_affaire.png  used on input line 2486.
+(pdftex.def)             Requested size: 204.85844pt x 48.82086pt.
+
+Overfull \hbox (23.99997pt too wide) in paragraph at lines 2466--2489
+ [][] 
+ []
+
+[88
+pdfTeX warning (ext4): destination with the same identifier (name{table.14}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.2492 \newpage
+                <../IMGS/auth.png> <../IMGS/tableau-bord.png> <../IMGS/listes u
+tilisateurs.png> <../IMGS/ajouter utilisateur.png> <../IMGS/affaire-list.png> <
+../IMGS/affaire-add.png> <../IMGS/prod-acc.png> <../IMGS/page_affaire.png>]
+<../IMGS/index production.png, id=1046, 1925.1925pt x 927.465pt>
+File: ../IMGS/index production.png Graphic file (type png)
+<use ../IMGS/index production.png>
+Package pdftex.def Info: ../IMGS/index production.png  used on input line 2500.
+
+(pdftex.def)             Requested size: 227.62204pt x 109.64937pt.
+<../IMGS/Accueil-logist&Sup.png, id=1047, 1781.65625pt x 497.86pt>
+File: ../IMGS/Accueil-logist&Sup.png Graphic file (type png)
+<use ../IMGS/Accueil-logist&Sup.png>
+Package pdftex.def Info: ../IMGS/Accueil-logist&Sup.png  used on input line 250
+1.
+(pdftex.def)             Requested size: 227.62204pt x 63.59975pt.
+<../IMGS/table technique 1.png, id=1048, 1918.16624pt x 975.645pt>
+File: ../IMGS/table technique 1.png Graphic file (type png)
+<use ../IMGS/table technique 1.png>
+Package pdftex.def Info: ../IMGS/table technique 1.png  used on input line 2505
+.
+(pdftex.def)             Requested size: 227.62204pt x 115.76228pt.
+<../IMGS/table-process-1.png, id=1049, 1896.08376pt x 940.51375pt>
+File: ../IMGS/table-process-1.png Graphic file (type png)
+<use ../IMGS/table-process-1.png>
+Package pdftex.def Info: ../IMGS/table-process-1.png  used on input line 2506.
+(pdftex.def)             Requested size: 227.62204pt x 112.89983pt.
+<../IMGS/table technique 2.png, id=1050, 1923.185pt x 872.25874pt>
+File: ../IMGS/table technique 2.png Graphic file (type png)
+<use ../IMGS/table technique 2.png>
+Package pdftex.def Info: ../IMGS/table technique 2.png  used on input line 2508
+.
+(pdftex.def)             Requested size: 227.62204pt x 103.2291pt.
+<../IMGS/table-process-2.png, id=1051, 1876.00874pt x 639.38875pt>
+File: ../IMGS/table-process-2.png Graphic file (type png)
+<use ../IMGS/table-process-2.png>
+Package pdftex.def Info: ../IMGS/table-process-2.png  used on input line 2509.
+(pdftex.def)             Requested size: 227.62204pt x 77.57213pt.
+<../IMGS/acc-prod-poste.png, id=1052, 1921.1775pt x 530.98375pt>
+File: ../IMGS/acc-prod-poste.png Graphic file (type png)
+<use ../IMGS/acc-prod-poste.png>
+Package pdftex.def Info: ../IMGS/acc-prod-poste.png  used on input line 2513.
+(pdftex.def)             Requested size: 227.62204pt x 62.90508pt.
+<../IMGS/config.png, id=1053, 1935.23pt x 433.62pt>
+File: ../IMGS/config.png Graphic file (type png)
+<use ../IMGS/config.png>
+Package pdftex.def Info: ../IMGS/config.png  used on input line 2514.
+(pdftex.def)             Requested size: 227.62204pt x 50.99997pt.
+<../IMGS/debit-barre-encours.png, id=1054, 1882.03125pt x 639.38875pt>
+File: ../IMGS/debit-barre-encours.png Graphic file (type png)
+<use ../IMGS/debit-barre-encours.png>
+Package pdftex.def Info: ../IMGS/debit-barre-encours.png  used on input line 25
+18.
+(pdftex.def)             Requested size: 227.62204pt x 77.32822pt.
+<../IMGS/touret-add.png, id=1055, 1922.18124pt x 654.445pt>
+File: ../IMGS/touret-add.png Graphic file (type png)
+<use ../IMGS/touret-add.png>
+Package pdftex.def Info: ../IMGS/touret-add.png  used on input line 2519.
+(pdftex.def)             Requested size: 227.62204pt x 77.49146pt.
+
+Overfull \hbox (23.99997pt too wide) in paragraph at lines 2496--2522
+ [][] 
+ []
+
+[89 <../IMGS/index production.png> <../IMGS/Accueil-logist&Sup.png> <../IMGS/ta
+ble technique 1.png> <../IMGS/table-process-1.png> <../IMGS/table technique 2.p
+ng> <../IMGS/table-process-2.png> <../IMGS/acc-prod-poste.png> <../IMGS/config.
+png> <../IMGS/debit-barre-encours.png> <../IMGS/touret-add.png>]
+<../IMGS/page d'operation.png, id=1062, 1921.1775pt x 721.69624pt>
+File: ../IMGS/page d'operation.png Graphic file (type png)
+<use ../IMGS/page d'operation.png>
+Package pdftex.def Info: ../IMGS/page d'operation.png  used on input line 2533.
+
+(pdftex.def)             Requested size: 227.62204pt x 85.4986pt.
+<../IMGS/section confirmation.png, id=1063, 1922.18124pt x 565.11125pt>
+File: ../IMGS/section confirmation.png Graphic file (type png)
+<use ../IMGS/section confirmation.png>
+Package pdftex.def Info: ../IMGS/section confirmation.png  used on input line 2
+534.
+(pdftex.def)             Requested size: 227.62204pt x 66.91364pt.
+<../IMGS/section confiramtion de non-conforme.png, id=1064, 1925.1925pt x 555.0
+7375pt>
+File: ../IMGS/section confiramtion de non-conforme.png Graphic file (type png)
+<use ../IMGS/section confiramtion de non-conforme.png>
+Package pdftex.def Info: ../IMGS/section confiramtion de non-conforme.png  used
+ on input line 2538.
+(pdftex.def)             Requested size: 227.62204pt x 65.62347pt.
+<../IMGS/section panne.png, id=1065, 1925.1925pt x 611.28375pt>
+File: ../IMGS/section panne.png Graphic file (type png)
+<use ../IMGS/section panne.png>
+Package pdftex.def Info: ../IMGS/section panne.png  used on input line 2539.
+(pdftex.def)             Requested size: 227.62204pt x 72.26889pt.
+<../IMGS/poste agglommÃ©ration calibre min et max.png, id=1066, 1932.21875pt x 
+822.07124pt>
+File: ../IMGS/poste agglommÃ©ration calibre min et max.png Graphic file (type p
+ng)
+<use ../IMGS/poste agglommÃ©ration calibre min et max.png>
+Package pdftex.def Info: ../IMGS/poste agglommÃ©ration calibre min et max.png  
+used on input line 2543.
+(pdftex.def)             Requested size: 227.62204pt x 96.83798pt.
+<../IMGS/poste agglo-confirmation des barres.png, id=1067, 1919.17pt x 623.3287
+5pt>
+File: ../IMGS/poste agglo-confirmation des barres.png Graphic file (type png)
+<use ../IMGS/poste agglo-confirmation des barres.png>
+Package pdftex.def Info: ../IMGS/poste agglo-confirmation des barres.png  used 
+on input line 2544.
+(pdftex.def)             Requested size: 227.62204pt x 73.92119pt.
+<../IMGS/deshydratation.png, id=1068, 1837.86626pt x 840.13875pt>
+File: ../IMGS/deshydratation.png Graphic file (type png)
+<use ../IMGS/deshydratation.png>
+Package pdftex.def Info: ../IMGS/deshydratation.png  used on input line 2547.
+(pdftex.def)             Requested size: 227.62204pt x 104.0428pt.
+<../IMGS/valider_deshydration.png, id=1069, 1849.91125pt x 525.965pt>
+File: ../IMGS/valider_deshydration.png Graphic file (type png)
+<use ../IMGS/valider_deshydration.png>
+Package pdftex.def Info: ../IMGS/valider_deshydration.png  used on input line 2
+548.
+(pdftex.def)             Requested size: 227.62204pt x 64.71016pt.
+<../IMGS/valider_toutes_les_barres_deshy.png, id=1070, 1843.88875pt x 456.70625
+pt>
+File: ../IMGS/valider_toutes_les_barres_deshy.png Graphic file (type png)
+<use ../IMGS/valider_toutes_les_barres_deshy.png>
+Package pdftex.def Info: ../IMGS/valider_toutes_les_barres_deshy.png  used on i
+nput line 2553.
+(pdftex.def)             Requested size: 227.62204pt x 56.37732pt.
+<../IMGS/valider_une_seule_barre_deshy.png, id=1071, 1820.8025pt x 482.80376pt>
+
+File: ../IMGS/valider_une_seule_barre_deshy.png Graphic file (type png)
+<use ../IMGS/valider_une_seule_barre_deshy.png>
+Package pdftex.def Info: ../IMGS/valider_une_seule_barre_deshy.png  used on inp
+ut line 2554.
+(pdftex.def)             Requested size: 227.62204pt x 60.35031pt.
+
+Overfull \hbox (23.99997pt too wide) in paragraph at lines 2529--2558
+ [][] 
+ []
+
+[90 <../IMGS/page d'operation.png> <../IMGS/section confirmation.png> <../IMGS/
+section confiramtion de non-conforme.png> <../IMGS/section panne.png> <../IMGS/
+poste agglommÃ©ration calibre min et max.png> <../IMGS/poste agglo-confirmation
+ des barres.png> <../IMGS/deshydratation.png> <../IMGS/valider_deshydration.png
+> <../IMGS/valider_toutes_les_barres_deshy.png> <../IMGS/valider_une_seule_barr
+e_deshy.png>]
+<../IMGS/elec-tang-acc.png, id=1077, 1818.795pt x 641.39626pt>
+File: ../IMGS/elec-tang-acc.png Graphic file (type png)
+<use ../IMGS/elec-tang-acc.png>
+Package pdftex.def Info: ../IMGS/elec-tang-acc.png  used on input line 2568.
+(pdftex.def)             Requested size: 227.62204pt x 80.2624pt.
+<../IMGS/elec-tang-delta.png, id=1078, 1836.8625pt x 845.1575pt>
+File: ../IMGS/elec-tang-delta.png Graphic file (type png)
+<use ../IMGS/elec-tang-delta.png>
+Package pdftex.def Info: ../IMGS/elec-tang-delta.png  used on input line 2569.
+(pdftex.def)             Requested size: 227.62204pt x 104.7288pt.
+<../IMGS/suivi stock 1.png, id=1079, 1888.05376pt x 567.11874pt>
+File: ../IMGS/suivi stock 1.png Graphic file (type png)
+<use ../IMGS/suivi stock 1.png>
+Package pdftex.def Info: ../IMGS/suivi stock 1.png  used on input line 2574.
+(pdftex.def)             Requested size: 227.62204pt x 68.36284pt.
+<../IMGS/suivi stock 2.png, id=1080, 1877.0125pt x 516.93124pt>
+File: ../IMGS/suivi stock 2.png Graphic file (type png)
+<use ../IMGS/suivi stock 2.png>
+Package pdftex.def Info: ../IMGS/suivi stock 2.png  used on input line 2575.
+(pdftex.def)             Requested size: 227.62204pt x 62.68375pt.
+<../IMGS/suivi-une-barre.png, id=1081, 1841.88126pt x 542.025pt>
+File: ../IMGS/suivi-une-barre.png Graphic file (type png)
+<use ../IMGS/suivi-une-barre.png>
+Package pdftex.def Info: ../IMGS/suivi-une-barre.png  used on input line 2578.
+(pdftex.def)             Requested size: 227.62204pt x 66.98378pt.
+<../IMGS/suivi-barres.png, id=1082, 1809.76125pt x 816.04875pt>
+File: ../IMGS/suivi-barres.png Graphic file (type png)
+<use ../IMGS/suivi-barres.png>
+Package pdftex.def Info: ../IMGS/suivi-barres.png  used on input line 2579.
+(pdftex.def)             Requested size: 227.62204pt x 102.62843pt.
+<../IMGS/suivi d'une barre 2.png, id=1083, 1925.1925pt x 882.29625pt>
+File: ../IMGS/suivi d'une barre 2.png Graphic file (type png)
+<use ../IMGS/suivi d'une barre 2.png>
+Package pdftex.def Info: ../IMGS/suivi d'une barre 2.png  used on input line 25
+81.
+(pdftex.def)             Requested size: 227.62204pt x 104.3093pt.
+<../IMGS/suivi des barres 2.png, id=1084, 1891.065pt x 888.31876pt>
+File: ../IMGS/suivi des barres 2.png Graphic file (type png)
+<use ../IMGS/suivi des barres 2.png>
+Package pdftex.def Info: ../IMGS/suivi des barres 2.png  used on input line 258
+2.
+(pdftex.def)             Requested size: 227.62204pt x 106.91896pt.
+<../IMGS/suivi-journalier.png, id=1085, 1808.7575pt x 894.34125pt>
+File: ../IMGS/suivi-journalier.png Graphic file (type png)
+<use ../IMGS/suivi-journalier.png>
+Package pdftex.def Info: ../IMGS/suivi-journalier.png  used on input line 2586.
+
+(pdftex.def)             Requested size: 227.62204pt x 112.54294pt.
+<../IMGS/suivi-production.png, id=1086, 1788.6825pt x 897.3525pt>
+File: ../IMGS/suivi-production.png Graphic file (type png)
+<use ../IMGS/suivi-production.png>
+Package pdftex.def Info: ../IMGS/suivi-production.png  used on input line 2587.
+
+(pdftex.def)             Requested size: 227.62204pt x 114.18158pt.
+
+Overfull \hbox (23.99997pt too wide) in paragraph at lines 2564--2590
+ [][] 
+ []
+
+[91 <../IMGS/elec-tang-acc.png> <../IMGS/elec-tang-delta.png> <../IMGS/suivi st
+ock 1.png> <../IMGS/suivi stock 2.png> <../IMGS/suivi-une-barre.png> <../IMGS/s
+uivi-barres.png> <../IMGS/suivi d'une barre 2.png> <../IMGS/suivi des barres 2.
+png> <../IMGS/suivi-journalier.png> <../IMGS/suivi-production.png>]
+<../IMGS/state-1.png, id=1098, 1798.72pt x 743.77875pt>
+File: ../IMGS/state-1.png Graphic file (type png)
+<use ../IMGS/state-1.png>
+Package pdftex.def Info: ../IMGS/state-1.png  used on input line 2600.
+(pdftex.def)             Requested size: 227.62204pt x 94.11838pt.
+<../IMGS/state-2.png, id=1099, 1788.6825pt x 542.025pt>
+File: ../IMGS/state-2.png Graphic file (type png)
+<use ../IMGS/state-2.png>
+Package pdftex.def Info: ../IMGS/state-2.png  used on input line 2602.
+(pdftex.def)             Requested size: 227.62204pt x 68.96873pt.
+<../IMGS/Super-3.png, id=1100, 1753.55125pt x 663.47874pt>
+File: ../IMGS/Super-3.png Graphic file (type png)
+<use ../IMGS/Super-3.png>
+Package pdftex.def Info: ../IMGS/Super-3.png  used on input line 2604.
+(pdftex.def)             Requested size: 227.62204pt x 86.12364pt.
+<../IMGS/Super-4.png, id=1101, 1754.555pt x 559.08875pt>
+File: ../IMGS/Super-4.png Graphic file (type png)
+<use ../IMGS/Super-4.png>
+Package pdftex.def Info: ../IMGS/Super-4.png  used on input line 2605.
+(pdftex.def)             Requested size: 227.62204pt x 72.53052pt.
+<../IMGS/Logistique.png, id=1102, 1801.73125pt x 833.1125pt>
+File: ../IMGS/Logistique.png Graphic file (type png)
+<use ../IMGS/Logistique.png>
+Package pdftex.def Info: ../IMGS/Logistique.png  used on input line 2609.
+(pdftex.def)             Requested size: 227.62204pt x 105.24477pt.
+<../IMGS/malf.png, id=1103, 1828.8325pt x 830.10126pt>
+File: ../IMGS/malf.png Graphic file (type png)
+<use ../IMGS/malf.png>
+Package pdftex.def Info: ../IMGS/malf.png  used on input line 2610.
+(pdftex.def)             Requested size: 227.62204pt x 103.30641pt.
+<../IMGS/mise en caisse.png, id=1104, 1923.185pt x 706.64pt>
+File: ../IMGS/mise en caisse.png Graphic file (type png)
+<use ../IMGS/mise en caisse.png>
+Package pdftex.def Info: ../IMGS/mise en caisse.png  used on input line 2614.
+(pdftex.def)             Requested size: 227.62204pt x 83.62863pt.
+<../IMGS/ajouter_une_barre_dans_une_caisse.png, id=1105, 1863.96375pt x 739.763
+75pt>
+File: ../IMGS/ajouter_une_barre_dans_une_caisse.png Graphic file (type png)
+<use ../IMGS/ajouter_une_barre_dans_une_caisse.png>
+Package pdftex.def Info: ../IMGS/ajouter_une_barre_dans_une_caisse.png  used on
+ input line 2615.
+(pdftex.def)             Requested size: 227.62204pt x 90.33682pt.
+<../IMGS/ajout d'une nouvelle caisse.png, id=1106, 1904.11375pt x 539.01375pt>
+File: ../IMGS/ajout d'une nouvelle caisse.png Graphic file (type png)
+<use ../IMGS/ajout d'une nouvelle caisse.png>
+Package pdftex.def Info: ../IMGS/ajout d'une nouvelle caisse.png  used on input
+ line 2618.
+(pdftex.def)             Requested size: 227.62204pt x 64.43211pt.
+<../IMGS/impre-caisse.png, id=1107, 1441.385pt x 859.21pt>
+File: ../IMGS/impre-caisse.png Graphic file (type png)
+<use ../IMGS/impre-caisse.png>
+Package pdftex.def Info: ../IMGS/impre-caisse.png  used on input line 2619.
+(pdftex.def)             Requested size: 227.62204pt x 135.68027pt.
+
+Overfull \hbox (23.99997pt too wide) in paragraph at lines 2597--2623
+ [][] 
+ []
+
+[92 <../IMGS/state-1.png> <../IMGS/state-2.png> <../IMGS/Super-3.png> <../IMGS/
+Super-4.png> <../IMGS/Logistique.png> <../IMGS/malf.png> <../IMGS/mise en caiss
+e.png> <../IMGS/ajouter_une_barre_dans_une_caisse.png> <../IMGS/ajout d'une nou
+velle caisse.png> <../IMGS/impre-caisse.png>] [93] [94] (./CONDE-MEMOIRE.aux)
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-22>
+ ***********
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package rerunfilecheck Info: File `CONDE-MEMOIRE.out' has not changed.
+(rerunfilecheck)             Checksum: DEE4D0FADC7B1E1061D50C95B246A112;17478.
+ ) 
+Here is how much of TeX's memory you used:
+ 13148 strings out of 476112
+ 214577 string characters out of 5793311
+ 1941975 words of memory out of 5000000
+ 34676 multiletter control sequences out of 15000+600000
+ 576835 words of font info for 70 fonts, out of 8000000 for 9000
+ 36 hyphenation exceptions out of 8191
+ 75i,15n,79p,881b,781s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+pdfTeX warning (dest): name{cite.bib\\penalty\040\\@M\040\040:industrieavenir} 
+has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{cite.bib\\penalty\040\\@M\040\040:ey2021} has been 
+referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{cite.bib\\penalty\040\\@M\040\040:deloitte2020} has
+ been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{cite.bib\\penalty\040\\@M\040\040:bain2019} has bee
+n referenced but does not exist, replaced by a fixed one
+
+ </home/conde/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1095.600pk
+> </home/conde/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1000.600p
+k> </home/conde/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt0900.600
+pk> </home/conde/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti0900.60
+0pk> </home/conde/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0900.6
+00pk> </home/conde/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.
+600pk> </home/conde/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/eccc1095
+.600pk> </home/conde/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm080
+0.600pk> </home/conde/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm10
+95.600pk> </home/conde/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1
+095.600pk> </home/conde/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbi
+1440.600pk> </home/conde/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/ect
+i1440.600pk> </home/conde/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/ec
+bx1440.600pk> </home/conde/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/e
+crm1095.600pk> </home/conde/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/
+ecbx1095.600pk> </home/conde/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec
+/ecbx2074.600pk> </home/conde/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/e
+c/ecrm1440.600pk> </home/conde/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/
+ec/ecbx1728.600pk>
+Output written on CONDE-MEMOIRE.pdf (94 pages, 6366240 bytes).
+PDF statistics:
+ 1938 PDF objects out of 2073 (max. 8388607)
+ 1055 compressed objects within 11 object streams
+ 312 named destinations out of 1000 (max. 500000)
+ 1014 words of extra memory for PDF output out of 10000 (max. 10000000)
+

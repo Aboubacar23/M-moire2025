@@ -1,0 +1,87 @@
+\babel@toc {french}{}\relax 
+\contentsline {section}{Avant-propos}{4}{section*.3}%
+\contentsline {section}{Table des matières}{5}{section*.4}%
+\contentsline {section}{Tables des images}{7}{section*.5}%
+\contentsline {section}{Liste des tableaux}{8}{section*.6}%
+\contentsline {section}{Introduction générale}{9}{section*.7}%
+\contentsline {section}{\numberline {1}Présentation de Jeumont Electric}{11}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Missions et offre de services}{11}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Le site de Carquefou}{12}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Chiffres clés}{13}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Organigramme de Carquefou}{13}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}Conclusion}{15}{subsection.1.5}%
+\contentsline {section}{\numberline {2}Contexte industriel général}{16}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Contexte et évolution de la digitalisation dans l’industrie}{16}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Systèmes d'information et outils numériques dans l’industrie}{19}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Le rôle des applications web sur mesure dans la digitalisation industrielle}{21}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Limites des outils traditionnels dans l’industrie}{22}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Contexte chez Jeumont Electric}{24}{subsection.2.5}%
+\contentsline {subsubsection}{\numberline {2.5.1}Outils existants}{24}{subsubsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.6}Conclusion}{26}{subsection.2.6}%
+\contentsline {section}{\numberline {3}Contexte et enjeux de la mission}{27}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Cadrage de la mission}{27}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Origine du projet}{27}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.2}Définition du périmètre}{27}{subsubsection.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.3}Nature de la mission}{28}{subsubsection.3.1.3}%
+\contentsline {subsubsection}{\numberline {3.1.4}Positionnement dans l’entreprise}{28}{subsubsection.3.1.4}%
+\contentsline {subsubsection}{\numberline {3.1.5}Un projet à impact local mais à potentiel global}{29}{subsubsection.3.1.5}%
+\contentsline {subsection}{\numberline {3.2}Objectifs de la mission}{30}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Objectifs techniques}{30}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Objectifs fonctionnels}{31}{subsubsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.3}Objectifs humains et organisationnels}{31}{subsubsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.3}Contraintes techniques et organisationnelles}{33}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}Contraintes techniques}{33}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2}Contraintes organisationnelles}{34}{subsubsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.4}Attentes de l’entreprise}{34}{subsection.3.4}%
+\contentsline {subsubsection}{\numberline {3.4.1}Attentes à court terme}{34}{subsubsection.3.4.1}%
+\contentsline {subsubsection}{\numberline {3.4.2}Attentes à moyen et long terme}{36}{subsubsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.5}Méthodologie adoptée}{37}{subsection.3.5}%
+\contentsline {subsubsection}{\numberline {3.5.1}Approche Agile : souplesse et itérations}{37}{subsubsection.3.5.1}%
+\contentsline {subsubsection}{\numberline {3.5.2}Cadrage progressif et centrage utilisateur}{40}{subsubsection.3.5.2}%
+\contentsline {subsubsection}{\numberline {3.5.3}Structuration du travail}{41}{subsubsection.3.5.3}%
+\contentsline {paragraph}{\numberline {3.5.3.1}Temps d'alternance}{41}{paragraph.3.5.3.1}%
+\contentsline {paragraph}{\numberline {3.5.3.2}Structuration en Entreprise}{43}{paragraph.3.5.3.2}%
+\contentsline {subsection}{\numberline {3.6}Conclusion}{44}{subsection.3.6}%
+\contentsline {section}{\numberline {4}Conception et développement des applications web}{45}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Présentation des trois applications}{45}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Outils de gestion de projet utilisés}{47}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Stack technique}{50}{subsection.4.3}%
+\contentsline {subsubsection}{\numberline {4.3.1}Technologies utilisées}{50}{subsubsection.4.3.1}%
+\contentsline {subsubsection}{\numberline {4.3.2}Architecture Globale}{51}{subsubsection.4.3.2}%
+\contentsline {paragraph}{\numberline {4.3.2.1}Architecture logique}{51}{paragraph.4.3.2.1}%
+\contentsline {paragraph}{\numberline {4.3.2.2}Architecture physique}{53}{paragraph.4.3.2.2}%
+\contentsline {paragraph}{\numberline {4.3.2.3}Schéma d’architecture générale}{55}{paragraph.4.3.2.3}%
+\contentsline {paragraph}{\numberline {4.3.2.4}Sécurité, accessibilité et interopérabilité}{56}{paragraph.4.3.2.4}%
+\contentsline {subsection}{\numberline {4.4}Réalisation des projets}{57}{subsection.4.4}%
+\contentsline {subsubsection}{\numberline {4.4.1}Organisation du projet}{57}{subsubsection.4.4.1}%
+\contentsline {subsubsection}{\numberline {4.4.2}Parcours utilisateur}{60}{subsubsection.4.4.2}%
+\contentsline {subsubsection}{\numberline {4.4.3}Illustration des interfaces applicatives}{61}{subsubsection.4.4.3}%
+\contentsline {subsubsection}{\numberline {4.4.4}Contraintes et adaptations techniques}{62}{subsubsection.4.4.4}%
+\contentsline {subsection}{\numberline {4.5}Tests, validations}{63}{subsection.4.5}%
+\contentsline {subsubsection}{\numberline {4.5.1}Stratégie de test}{63}{subsubsection.4.5.1}%
+\contentsline {subsubsection}{\numberline {4.5.2}Recette utilisateur}{64}{subsubsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.6}Conclusion}{65}{subsection.4.6}%
+\contentsline {section}{\numberline {5}Bilan critique et perspectives}{66}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Analyse critique et retour d’expérience}{66}{subsection.5.1}%
+\contentsline {subsubsection}{\numberline {5.1.1}Analyse qualitative}{66}{subsubsection.5.1.1}%
+\contentsline {subsubsection}{\numberline {5.1.2}Analyse quantitative}{67}{subsubsection.5.1.2}%
+\contentsline {subsubsection}{\numberline {5.1.3}Résultats globaux}{70}{subsubsection.5.1.3}%
+\contentsline {paragraph}{\numberline {5.1.3.1}Gains pour l’entreprise :}{70}{paragraph.5.1.3.1}%
+\contentsline {paragraph}{\numberline {5.1.3.2}Améliorations concrètes observées :}{70}{paragraph.5.1.3.2}%
+\contentsline {subsubsection}{\numberline {5.1.4}Analyse SWOT des projets réalisés}{71}{subsubsection.5.1.4}%
+\contentsline {subsubsection}{\numberline {5.1.5}Montée en compétences}{72}{subsubsection.5.1.5}%
+\contentsline {paragraph}{\numberline {5.1.5.1}Compétences techniques développées :}{72}{paragraph.5.1.5.1}%
+\contentsline {paragraph}{\numberline {5.1.5.2}Compétences humaines et transversales :}{72}{paragraph.5.1.5.2}%
+\contentsline {subsection}{\numberline {5.2}Perspectives et recommandations}{73}{subsection.5.2}%
+\contentsline {subsubsection}{\numberline {5.2.1}Évolutions techniques possibles}{73}{subsubsection.5.2.1}%
+\contentsline {subsubsection}{\numberline {5.2.2}Recommandations pour l’organisation}{73}{subsubsection.5.2.2}%
+\contentsline {subsubsection}{\numberline {5.2.3}Réutilisabilité dans d’autres sites ou services}{73}{subsubsection.5.2.3}%
+\contentsline {subsubsection}{\numberline {5.2.4}Conditions de pérennisation}{74}{subsubsection.5.2.4}%
+\contentsline {subsection}{\numberline {5.3}Difficultés et problèmes rencontrées}{74}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Solutions proposées}{75}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}Conclusion}{76}{subsection.5.5}%
+\contentsline {section}{Conclusion}{77}{section*.9}%
+\contentsline {section}{R\'ef\'erences}{79}{section*.15}%
+\contentsline {section}{Glossaire}{81}{section*.17}%
+\contentsline {section}{Résumé}{93}{section*.19}%
+\contentsline {section}{Abstract}{94}{section*.20}%
